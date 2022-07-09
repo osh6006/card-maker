@@ -1,0 +1,21 @@
+@value makerBlack from './common/colors.css';
+@value makerWhite from './common/colors.css';
+@value makerGrey from './common/colors.css';
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: makerGrey;
+}
+
+h1 {
+  margin: 0;
+}
