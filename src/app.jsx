@@ -1,8 +1,13 @@
 import "./app.css";
+import { useLocation } from "react-router";
+import React from "react";
 
-function App() {
-  // fetch같은걸로 구글에 로그인 하게 만들어서 성공하면 true를 반환
-  return <div>link</div>;
-}
+const App = props => {
+  const location = useLocation();
+  console.log(location);
+  console.log(location.state.id);
+  console.log(location.state.email);
+  return <div>asdf</div>;
+};
 
 export default App;
