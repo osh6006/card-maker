@@ -3,6 +3,14 @@
 @value makerWhite from '../../common/colors.css';
 @value makerPink from '../../common/colors.css';
 
+.wrap {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .loginBox {
   width: 30rem;
   height: 24rem;
@@ -38,7 +46,7 @@
   margin: 16px 0px;
 }
 
-button {
+.btn {
   width: 95%;
   color: #3d4c55;
   background-color: #ffffff;

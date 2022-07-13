@@ -1,0 +1,22 @@
+@value makerNavy from '../../common/colors.css';
+@value makerWhite from '../../common/colors.css';
+
+.header {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: makerNavy;
+  padding: 5px;
+  color: makerWhite;
+}
+
+.header img {
+  width: 55px;
+  height: 36px;
+}
+
+.header h1 {
+  font-size: 2rem;
+}

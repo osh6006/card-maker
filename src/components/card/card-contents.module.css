@@ -1,0 +1,8 @@
+@value makerWhite from '../../common/colors.css';
+@value makerGrey from '../../common/colors.css';
+
+.wrap {
+  width: 80%;
+  display: flex;
+  background-color: makerWhite;
+}
